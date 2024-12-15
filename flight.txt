@@ -1,0 +1,277 @@
+Scenario: A commercial flight departing from an airport
+ATC:
+"American 123, cleared to JFK via the SID (Standard Instrument Departure) route, climb and maintain 10,000 feet, squawk 4571."
+
+Pilot:
+"Cleared to JFK via the SID route, climb and maintain 10,000, squawk 4571, American 123."
+
+ATC:
+"American 123, readback correct. Contact ground on 121.9 when ready to taxi."
+
+Pilot:
+"121.9 when ready to taxi, American 123."
+
+During Taxiing
+Pilot:
+"Ground, American 123, ready to taxi with information Alpha."
+
+ATC Ground:
+"American 123, taxi to runway 27R via Alpha, Bravo, hold short of 27R."
+
+Pilot:
+"Taxi to runway 27R via Alpha, Bravo, hold short of 27R, American 123."
+
+During Takeoff
+Pilot:
+"Tower, American 123, holding short of 27R, ready for departure."
+
+ATC Tower:
+"American 123, wind 270 at 10, cleared for takeoff runway 27R."
+
+Pilot:
+"Cleared for takeoff 27R, American 123."
+
+After Takeoff
+ATC Tower:
+"American 123, contact departure on 123.85, good day."
+
+Pilot:
+"123.85, good day, American 123."
+
+ATC Departure:
+"American 123, radar contact, climb and maintain flight level 200."
+
+Pilot:
+"Climb and maintain flight level 200, American 123."
+
+------------------------------------------------------------------------------------------------------------------------
+
+Scenario: An Indigo flight (callsign "IndiGo 456") is preparing for departure from Bengaluru's Kempegowda International Airport to Delhi's Indira Gandhi International Airport.
+
+1. Clearance Delivery:
+
+ATC: "IndiGo 456, cleared to Delhi via the CHASE ONE ALPHA departure, climb and maintain flight level 320, squawk 0523."
+
+Pilot: "Cleared to Delhi via CHASE ONE ALPHA, climb to flight level 320, squawk 0523, IndiGo 456."
+
+2. Ground Control (Taxiing):
+
+Pilot: "Bengaluru Ground, IndiGo 456, ready to taxi with information Bravo."
+
+ATC: "IndiGo 456, taxi to runway 27 via taxiways Alpha and Bravo, hold short of runway 27."
+
+Pilot: "Taxi to runway 27 via Alpha and Bravo, hold short of runway 27, IndiGo 456."
+
+3. Tower Control (Takeoff):
+
+Pilot: "Bengaluru Tower, IndiGo 456, holding short of runway 27, ready for departure."
+
+ATC: "IndiGo 456, wind 270 degrees at 10 knots, cleared for takeoff runway 27."
+
+Pilot: "Cleared for takeoff runway 27, IndiGo 456."
+
+4. Departure Control:
+
+ATC: "IndiGo 456, contact Bengaluru Departure on 121.25."
+
+Pilot: "121.25, IndiGo 456."
+
+Pilot (to Departure): "Bengaluru Departure, IndiGo 456, passing 3,000 feet for flight level 320."
+
+ATC: "IndiGo 456, radar contact, proceed direct to point Alpha, climb and maintain flight level 320."
+
+Pilot: "Direct to point Alpha, climb to flight level 320, IndiGo 456."
+
+This structured communication ensures that both pilots and controllers maintain situational awareness and coordinate effectively, adhering to international aviation standards.
+
+For more detailed examples and protocols, resources like the Air Traffic Control Communications Protocol Guide for Pilots provide comprehensive insights.
+
+Additionally, real-world ATC communications can be accessed through platforms like LiveATC.net, which archives recordings of ATC transmissions, including those from Indian airports.
+
+These resources offer valuable insights into the standard practices and phraseology used in aviation communications within India.
+
+
+Sources https://www.insightflyer.com/contact/
+	https://www.liveatc.net/archive.php
+	https://www.mdpi.com/2226-4310/10/10/898
+	https://www.flight-insight.com/post/vfr-radio-communications-script
+	https://herald.dawn.com/news/1153613
+	
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Here are five different sets of sample conversations between Indian air traffic controllers (ATC) and pilots. These examples follow standard aviation communication practices:
+
+Set 1: Clearance Delivery
+Pilot:
+"Delhi Clearance, Air India 302, request clearance to Mumbai with information Delta."
+
+ATC:
+"Air India 302, cleared to Mumbai via the BIDAR ONE BRAVO departure, climb and maintain flight level 330, squawk 4301."
+
+Pilot:
+"Cleared to Mumbai via BIDAR ONE BRAVO, climb flight level 330, squawk 4301, Air India 302."
+
+ATC:
+"Air India 302, readback correct. Contact ground when ready to taxi."
+
+Set 2: Taxiing
+Pilot:
+"Bengaluru Ground, Indigo 412, ready to taxi, runway 27, with information Echo."
+
+ATC:
+"Indigo 412, taxi to runway 27 via Alpha and Charlie, hold short of taxiway Delta."
+
+Pilot:
+"Taxi to runway 27 via Alpha and Charlie, hold short of Delta, Indigo 412."
+
+ATC:
+"Indigo 412, hold short of runway 27 and contact Tower on 118.3."
+
+Pilot:
+"Hold short runway 27, contact Tower on 118.3, Indigo 412."
+
+Set 3: Takeoff
+Pilot:
+"Chennai Tower, Vistara 215, holding short of runway 12, ready for departure."
+
+ATC:
+"Vistara 215, Chennai Tower, wind 120 degrees at 8 knots, cleared for takeoff runway 12."
+
+Pilot:
+"Cleared for takeoff runway 12, Vistara 215."
+
+ATC:
+"Vistara 215, contact Chennai Departure on 123.75 after takeoff."
+
+Pilot:
+"Contact 123.75 after takeoff, Vistara 215."
+
+Set 4: Enroute Handover
+ATC (Mumbai Radar):
+"SpiceJet 824, contact Ahmedabad Radar on 124.5."
+
+Pilot:
+"Contact Ahmedabad Radar on 124.5, SpiceJet 824."
+
+Pilot (to Ahmedabad Radar):
+"Ahmedabad Radar, SpiceJet 824, level at flight level 370."
+
+ATC (Ahmedabad Radar):
+"SpiceJet 824, radar contact. Maintain flight level 370, proceed direct to point CHARLIE."
+
+Pilot:
+"Maintain flight level 370, direct CHARLIE, SpiceJet 824."
+
+Set 5: Approach and Landing
+Pilot:
+"Hyderabad Approach, Air Asia 514, descending through flight level 120 for 5,000 feet, runway 09R."
+
+ATC:
+"Air Asia 514, Hyderabad Approach, radar contact. Descend and maintain 3,000 feet, turn right heading 090, cleared for the ILS approach runway 09R."
+
+Pilot:
+"Descend to 3,000 feet, turn right heading 090, cleared for ILS runway 09R, Air Asia 514."
+
+ATC:
+"Air Asia 514, contact Hyderabad Tower on 118.1."
+
+Pilot:
+"Contact Tower on 118.1, Air Asia 514."
+
+These conversations are examples of actual aviation procedures, adapted to fit Indian airspace terminology and operations.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+Here are five additional, unique sets of conversations between pilots and Indian air traffic controllers (ATC), showcasing different scenarios:
+
+Set 1: Emergency Landing Request
+Pilot:
+"Chennai Tower, IndiGo 287, declaring an emergency, engine failure. Request immediate return to Chennai, runway 07."
+
+ATC:
+"IndiGo 287, emergency declared. Cleared direct to Chennai, runway 07. Descend to 3,000 feet. Wind 070 degrees at 15 knots."
+
+Pilot:
+"Direct Chennai, descend to 3,000 feet, runway 07, IndiGo 287."
+
+ATC:
+"IndiGo 287, emergency services are on standby. Report when established on final approach."
+
+Pilot:
+"Wilco, IndiGo 287."
+
+Set 2: Weather Diversion
+Pilot:
+"Delhi Approach, Vistara 512, unable to land due to severe weather. Request diversion to Jaipur."
+
+ATC:
+"Vistara 512, diversion approved. Cleared to Jaipur, climb to flight level 250. Squawk 7251."
+
+Pilot:
+"Cleared to Jaipur, climbing to flight level 250, squawking 7251, Vistara 512."
+
+ATC:
+"Vistara 512, contact Delhi Departure on 124.35 for further instructions."
+
+Pilot:
+"Contacting 124.35, Vistara 512."
+
+Set 3: Runway Change
+ATC:
+"Air India 409, Bengaluru Tower, runway 09R is now unavailable due to maintenance. Cleared to land runway 09L. Wind 090 at 10 knots."
+
+Pilot:
+"Runway 09L cleared to land, Air India 409."
+
+ATC:
+"Air India 409, confirm visual on runway 09L."
+
+Pilot:
+"Runway 09L in sight, Air India 409."
+
+ATC:
+"Air India 409, continue approach, contact Ground on 121.9 after landing."
+
+Pilot:
+"Wilco, Air India 409."
+
+Set 4: Bird Strike Incident
+Pilot:
+"Goa Tower, SpiceJet 642, bird strike during takeoff. Request to return and land immediately, runway 26."
+
+ATC:
+"SpiceJet 642, roger, cleared to land runway 26. Wind 260 at 5 knots. Emergency services on alert."
+
+Pilot:
+"Cleared to land runway 26, SpiceJet 642."
+
+ATC:
+"SpiceJet 642, report when on final approach."
+
+Pilot:
+"Will report on final, SpiceJet 642."
+
+Set 5: Miscommunication Resolution
+Pilot:
+"Hyderabad Approach, AirAsia 304, we were instructed to descend to 5,000 feet, but we’re currently at 6,000 feet. Please confirm."
+
+ATC:
+"AirAsia 304, maintain 6,000 feet. There is conflicting traffic at 5,000. Expect further descent shortly."
+
+Pilot:
+"Maintaining 6,000 feet, AirAsia 304."
+
+ATC:
+"AirAsia 304, descend to 4,000 feet now, turn left heading 180."
+
+Pilot:
+"Descending to 4,000 feet, turning left heading 180, AirAsia 304."
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
