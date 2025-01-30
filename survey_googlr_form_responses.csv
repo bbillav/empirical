@@ -1,0 +1,402 @@
+"Timestamp","Do you consent to participate in this study and allow us to use your anonymized responses for research purposes?","What is your role in aviation?","How many years of experience do you have in aviation?","Scenario 1
+
+Response 1:
+
+When ready to taxi:
+Pilot: Lancaster Ground, Cherokee 8121K, west ramp, VFR, 4,500 to Frederick with Sierra.
+Ground: Cherokee 8121K, Lancaster Ground, taxi to Runway 26.
+Pilot: Taxi to Runway 26, Cherokee 8121K.
+
+When ready for takeoff:
+Pilot: Lancaster Tower, Cherokee 8121K, Runway 26, ready for takeoff.
+Tower: Cherokee 8121K, Runway 26, cleared for takeoff.
+Pilot: Cleared for takeoff Runway 26, Cherokee 8121K.
+
+Response 2:
+
+When ready to taxi:
+Pilot: Lancaster Ground, Cherokee 8121K, west ramp, VFR, 4,500 to Frederick with Sierra.
+Ground: Cherokee 8121K, Lancaster Ground, taxi to Runway 26 via Taxiway Alpha, the runway is clear.
+Pilot: Taxi to Runway 26, Cherokee 8121K.
+
+When ready for takeoff:
+Pilot: Lancaster Tower, Cherokee 8121K, Runway 26, ready for takeoff.
+Ground: Cherokee 8121K, Lancaster Ground, taxi to Runway 26 via Taxiway Alpha, the runway is clear.
+Pilot: Taxi to Runway 26, Cherokee 8121K.
+","Scenario 2
+
+Response 1:  
+Pilot: MAYDAY MAYDAY MAYDAY Tallinn Tower Regional jet 347
+Embraer 195 engine failure, continuing SID, passing TN 850
+2000 ft, climbing to altitude 4000 ft, endurance 2 ½ hrs, 112 POB
+ATCO: (MAYDAY) Regional-jet347,Tallinn Tower, roger MAYDAY
+Pilot: MAYDAY MAYDAY MAYDAY,KastrupTower,Big-prop1233,ATR72,right-hand engine fire, continuing approach runway 22L,after landing stopping on the runway,5 miles final,
+altitude 1600ft descending,64POB
+ATCO: (MAYDAY) Big-prop 1233,Kastrup Tower, roger MAYDAY, runway 22L cleared to land, wind 260 degrees 10kt,emergency services alerted
+
+Response 2: 
+Pilot: MAYDAY MAYDAY MAYDAY Tallinn Tower Regional jet 347
+Embraer 195 engine failure, continuing SID, passing TN 850
+2000 ft, climbing to altitude 4000 ft, endurance 2 ½ hrs, 112 POB
+ATCO: (MAYDAY) Regional Jet 347, Tallinn Tower, roger MAYDAY. Maintain 4,000 ft. Turn left heading 310 to ensure safe routing. Advise intentions.
+Pilot: MAYDAY MAYDAY MAYDAY,KastrupTower,Big-prop1233,ATR72,right-hand engine fire, continuing approach runway22L,afterlanding stopping on the runway,5 miles final,
+altitude 1600ft descending,64POB
+ATCO: (MAYDAY) Big Prop 1233, Kastrup Tower, roger MAYDAY. Runway 22L cleared to land. 
+Winds 260 degrees at 10 knots. Emergency services alerted and standing by. Report when on short final.","Scenario 3
+CTR Crossing -Request for crossing an active control zone
+
+Response 1:
+Pilot: De Kooy Tower, PH-ABC
+ATCO: PH-ABC,De Kooy Tower,go ahead
+Pilot: TB-9,overhead Schagen,altitude 1500ft,VFR Lelystad to Texel,request to cross control zonefrom Zuluvia
+overhead thefield to November,altitude 2000ft,PH-ABC
+ATCO: PH-ABC, De Kooy Tower. Cross Zuluvia to November at 2000ft. Maintain 2000ft. Squawk 1200. Report established..
+
+Response 2: 
+Pilot: De Kooy Tower, P-BC
+ATCO: PH-ABC,De Kooy Tower,go ahead
+Pilot: TB-9,overhead Schagen,altitude 1500ft,VFR Lelystad to Texel,request to cross control zonefrom Zuluvia
+overhead thefield to November,altitude 2000ft,PH-ABC
+ATCO: P-BC,roger,crossing approved,along the coast to November,altitude 1500ft QNH1020,report entering control zone","Scenario 4
+
+Response 1:
+
+Go Around 
+
+ATCO: Regional-jet347,GO AROUND!I SAY AGAIN GOAROUND! ACKNOWLEDGE!
+Pilot: GOING AROUND, Regional-jet 347
+
+Relayed emergency message
+
+Pilot: MAYDAY MAYDAY MAYDAY,Lelystad Tower,PH-ABC, have intercepted MAYDAY from PH-DEF,I say again PH-DEF, Cessna172, engine failure,
+forced landing 5miles south of Harderwijk, altitude 1200ft descending, heading125, 3POB”
+ATCO: PH-ABC, Lelystad Tower, roger your relayed MAYDAY from PH-DEF”
+
+Response 2 :
+
+Go Around 
+
+ATCO: Regional Jet 347, go around, I say again, go around. Climb to 3,000 feet, fly runway heading
+Pilot: GOING AROUND, Regional-jet 347
+
+Relayed emergency message
+
+Pilot: MAYDAY MAYDAY MAYDAY, Lelystad Tower, PH-ABC, have intercepted MAYDAY from PH-DEF,I say again PH-DEF, Cessna172, engine failure,
+forced landing 5miles south of Harderwijk, altitude 1200ft descending, heading125, 3POB”
+ATCO: Harderwijk Tower, this is Lelystad Tower. Mayday Relay. PH-DEF, Cessna 172, reports engine failure. 
+Forced landing 5 miles south of Harderwijk. Altitude 1200 feet, descending. Heading 125 degrees. Three persons on board.","Scenario 5
+
+The flight crew declared an emergency, transmitting “Mayday Mayday Mayday” followed by “Bird strike, bird strike, go-around and 
+the aircraft initiated a go-around maneuver, requesting permission to land from the opposite direction on Runway 19.
+
+Response  from ChatGPT: 
+Pilot: MAYDAY, MAYDAY, MAYDAY. [Station Name], [Flight Number]. Bird strike, bird strike, go-around.
+ATCO: [Flight Number], roger MAYDAY. Confirm intentions.
+Pilot: Requesting permission to land on Runway 19 from the opposite direction. [Flight Number].
+ATCO: [Flight Number], roger. Stand by for clearance.
+ATCO: [Flight Number], cleared to approach Runway 19. Winds 190 degrees at 8 knots. Emergency services will be on standby. Report established on final.
+Pilot: Cleared for approach Runway 19. Will report when established on final. [Flight Number].
+
+Response  from Gemini: 
+Pilot: Mayday Mayday Mayday! [Flight Number], bird strike, bird strike, go-around!
+ATC: [Flight Number], [Station Name], say again, nature of emergency?
+Pilot: Bird strike, severe engine damage, requesting immediate go-around!
+ATC: [Flight Number], [Station Name], go-around approved. Squawk 7700. Maintain visual separation from other traffic. Vectors for Runway 19 approach will follow.
+Pilot: [Flight Number], go-around initiated, requesting immediate vectors for Runway 19 approach.
+ATC: [Flight Number], [Station Name], vectors for Runway 19 approach. Turn left heading 270 degrees. Maintain 1500 feet. Expect further vectors. [How clear is the response from ChatGPT]","Scenario 5
+
+The flight crew declared an emergency, transmitting “Mayday Mayday Mayday” followed by “Bird strike, bird strike, go-around and 
+the aircraft initiated a go-around maneuver, requesting permission to land from the opposite direction on Runway 19.
+
+Response  from ChatGPT: 
+Pilot: MAYDAY, MAYDAY, MAYDAY. [Station Name], [Flight Number]. Bird strike, bird strike, go-around.
+ATCO: [Flight Number], roger MAYDAY. Confirm intentions.
+Pilot: Requesting permission to land on Runway 19 from the opposite direction. [Flight Number].
+ATCO: [Flight Number], roger. Stand by for clearance.
+ATCO: [Flight Number], cleared to approach Runway 19. Winds 190 degrees at 8 knots. Emergency services will be on standby. Report established on final.
+Pilot: Cleared for approach Runway 19. Will report when established on final. [Flight Number].
+
+Response  from Gemini: 
+Pilot: Mayday Mayday Mayday! [Flight Number], bird strike, bird strike, go-around!
+ATC: [Flight Number], [Station Name], say again, nature of emergency?
+Pilot: Bird strike, severe engine damage, requesting immediate go-around!
+ATC: [Flight Number], [Station Name], go-around approved. Squawk 7700. Maintain visual separation from other traffic. Vectors for Runway 19 approach will follow.
+Pilot: [Flight Number], go-around initiated, requesting immediate vectors for Runway 19 approach.
+ATC: [Flight Number], [Station Name], vectors for Runway 19 approach. Turn left heading 270 degrees. Maintain 1500 feet. Expect further vectors. [How accurate is the response from ChatGPT?]","Scenario 5
+
+The flight crew declared an emergency, transmitting “Mayday Mayday Mayday” followed by “Bird strike, bird strike, go-around and 
+the aircraft initiated a go-around maneuver, requesting permission to land from the opposite direction on Runway 19.
+
+Response  from ChatGPT: 
+Pilot: MAYDAY, MAYDAY, MAYDAY. [Station Name], [Flight Number]. Bird strike, bird strike, go-around.
+ATCO: [Flight Number], roger MAYDAY. Confirm intentions.
+Pilot: Requesting permission to land on Runway 19 from the opposite direction. [Flight Number].
+ATCO: [Flight Number], roger. Stand by for clearance.
+ATCO: [Flight Number], cleared to approach Runway 19. Winds 190 degrees at 8 knots. Emergency services will be on standby. Report established on final.
+Pilot: Cleared for approach Runway 19. Will report when established on final. [Flight Number].
+
+Response  from Gemini: 
+Pilot: Mayday Mayday Mayday! [Flight Number], bird strike, bird strike, go-around!
+ATC: [Flight Number], [Station Name], say again, nature of emergency?
+Pilot: Bird strike, severe engine damage, requesting immediate go-around!
+ATC: [Flight Number], [Station Name], go-around approved. Squawk 7700. Maintain visual separation from other traffic. Vectors for Runway 19 approach will follow.
+Pilot: [Flight Number], go-around initiated, requesting immediate vectors for Runway 19 approach.
+ATC: [Flight Number], [Station Name], vectors for Runway 19 approach. Turn left heading 270 degrees. Maintain 1500 feet. Expect further vectors. [How effective is the response from ChatGPT?]","Scenario 5
+
+The flight crew declared an emergency, transmitting “Mayday Mayday Mayday” followed by “Bird strike, bird strike, go-around and 
+the aircraft initiated a go-around maneuver, requesting permission to land from the opposite direction on Runway 19.
+
+Response  from ChatGPT: 
+Pilot: MAYDAY, MAYDAY, MAYDAY. [Station Name], [Flight Number]. Bird strike, bird strike, go-around.
+ATCO: [Flight Number], roger MAYDAY. Confirm intentions.
+Pilot: Requesting permission to land on Runway 19 from the opposite direction. [Flight Number].
+ATCO: [Flight Number], roger. Stand by for clearance.
+ATCO: [Flight Number], cleared to approach Runway 19. Winds 190 degrees at 8 knots. Emergency services will be on standby. Report established on final.
+Pilot: Cleared for approach Runway 19. Will report when established on final. [Flight Number].
+
+Response  from Gemini: 
+Pilot: Mayday Mayday Mayday! [Flight Number], bird strike, bird strike, go-around!
+ATC: [Flight Number], [Station Name], say again, nature of emergency?
+Pilot: Bird strike, severe engine damage, requesting immediate go-around!
+ATC: [Flight Number], [Station Name], go-around approved. Squawk 7700. Maintain visual separation from other traffic. Vectors for Runway 19 approach will follow.
+Pilot: [Flight Number], go-around initiated, requesting immediate vectors for Runway 19 approach.
+ATC: [Flight Number], [Station Name], vectors for Runway 19 approach. Turn left heading 270 degrees. Maintain 1500 feet. Expect further vectors. [How clear is the response from Gemini?]","Scenario 5
+
+The flight crew declared an emergency, transmitting “Mayday Mayday Mayday” followed by “Bird strike, bird strike, go-around and 
+the aircraft initiated a go-around maneuver, requesting permission to land from the opposite direction on Runway 19.
+
+Response  from ChatGPT: 
+Pilot: MAYDAY, MAYDAY, MAYDAY. [Station Name], [Flight Number]. Bird strike, bird strike, go-around.
+ATCO: [Flight Number], roger MAYDAY. Confirm intentions.
+Pilot: Requesting permission to land on Runway 19 from the opposite direction. [Flight Number].
+ATCO: [Flight Number], roger. Stand by for clearance.
+ATCO: [Flight Number], cleared to approach Runway 19. Winds 190 degrees at 8 knots. Emergency services will be on standby. Report established on final.
+Pilot: Cleared for approach Runway 19. Will report when established on final. [Flight Number].
+
+Response  from Gemini: 
+Pilot: Mayday Mayday Mayday! [Flight Number], bird strike, bird strike, go-around!
+ATC: [Flight Number], [Station Name], say again, nature of emergency?
+Pilot: Bird strike, severe engine damage, requesting immediate go-around!
+ATC: [Flight Number], [Station Name], go-around approved. Squawk 7700. Maintain visual separation from other traffic. Vectors for Runway 19 approach will follow.
+Pilot: [Flight Number], go-around initiated, requesting immediate vectors for Runway 19 approach.
+ATC: [Flight Number], [Station Name], vectors for Runway 19 approach. Turn left heading 270 degrees. Maintain 1500 feet. Expect further vectors. [How accurate is the response from Gemini?]","Scenario 5
+
+The flight crew declared an emergency, transmitting “Mayday Mayday Mayday” followed by “Bird strike, bird strike, go-around and 
+the aircraft initiated a go-around maneuver, requesting permission to land from the opposite direction on Runway 19.
+
+Response  from ChatGPT: 
+Pilot: MAYDAY, MAYDAY, MAYDAY. [Station Name], [Flight Number]. Bird strike, bird strike, go-around.
+ATCO: [Flight Number], roger MAYDAY. Confirm intentions.
+Pilot: Requesting permission to land on Runway 19 from the opposite direction. [Flight Number].
+ATCO: [Flight Number], roger. Stand by for clearance.
+ATCO: [Flight Number], cleared to approach Runway 19. Winds 190 degrees at 8 knots. Emergency services will be on standby. Report established on final.
+Pilot: Cleared for approach Runway 19. Will report when established on final. [Flight Number].
+
+Response  from Gemini: 
+Pilot: Mayday Mayday Mayday! [Flight Number], bird strike, bird strike, go-around!
+ATC: [Flight Number], [Station Name], say again, nature of emergency?
+Pilot: Bird strike, severe engine damage, requesting immediate go-around!
+ATC: [Flight Number], [Station Name], go-around approved. Squawk 7700. Maintain visual separation from other traffic. Vectors for Runway 19 approach will follow.
+Pilot: [Flight Number], go-around initiated, requesting immediate vectors for Runway 19 approach.
+ATC: [Flight Number], [Station Name], vectors for Runway 19 approach. Turn left heading 270 degrees. Maintain 1500 feet. Expect further vectors. [How effective is the response from Gemini?]","Scenario 6
+
+Flight 295 has caught fire in the cargo and wants to descend immediately.
+
+Response from Gemini:
+ATCO: Do you wish to, do you request a full emergency?""
+Pilot: Yes, Mauritius Approach, we request a full emergency. We have a fire in the cargo hold and are descending immediately.
+ATCO: Flight 295, Mauritius Approach, Roger. Full emergency declared. Squawk 7700. Vectors for immediate descent to FL140 will follow. Stand by.
+Pilot: Flight 295, turn left heading 270 degrees. Maintain 15,000 feet. Expect vectors for immediate descent to FL140.
+
+Response from ChatGPT: 
+ATCO: Do you wish to, do you request a full emergency?
+Pilot: Yes, Mauritius Approach, we request a full emergency. We have a fire in the cargo hold and are descending immediately.
+ATCO: Flight 295, Mauritius Approach, Roger. Full emergency declared. Squawk 7700. Descend to FL140 immediately. Vectors for approach will follow.
+Pilot: Flight 295, squawking 7700. Descending to FL140. Request vectors for approach. [How clear is the response from ChatGPT]","Scenario 6
+
+Flight 295 has caught fire in the cargo and wants to descend immediately.
+
+Response from Gemini:
+ATCO: Do you wish to, do you request a full emergency?""
+Pilot: Yes, Mauritius Approach, we request a full emergency. We have a fire in the cargo hold and are descending immediately.
+ATCO: Flight 295, Mauritius Approach, Roger. Full emergency declared. Squawk 7700. Vectors for immediate descent to FL140 will follow. Stand by.
+Pilot: Flight 295, turn left heading 270 degrees. Maintain 15,000 feet. Expect vectors for immediate descent to FL140.
+
+Response from ChatGPT: 
+ATCO: Do you wish to, do you request a full emergency?
+Pilot: Yes, Mauritius Approach, we request a full emergency. We have a fire in the cargo hold and are descending immediately.
+ATCO: Flight 295, Mauritius Approach, Roger. Full emergency declared. Squawk 7700. Descend to FL140 immediately. Vectors for approach will follow.
+Pilot: Flight 295, squawking 7700. Descending to FL140. Request vectors for approach. [How accurate is the response from ChatGPT?]","Scenario 6
+
+Flight 295 has caught fire in the cargo and wants to descend immediately.
+
+Response from Gemini:
+ATCO: Do you wish to, do you request a full emergency?""
+Pilot: Yes, Mauritius Approach, we request a full emergency. We have a fire in the cargo hold and are descending immediately.
+ATCO: Flight 295, Mauritius Approach, Roger. Full emergency declared. Squawk 7700. Vectors for immediate descent to FL140 will follow. Stand by.
+Pilot: Flight 295, turn left heading 270 degrees. Maintain 15,000 feet. Expect vectors for immediate descent to FL140.
+
+Response from ChatGPT: 
+ATCO: Do you wish to, do you request a full emergency?
+Pilot: Yes, Mauritius Approach, we request a full emergency. We have a fire in the cargo hold and are descending immediately.
+ATCO: Flight 295, Mauritius Approach, Roger. Full emergency declared. Squawk 7700. Descend to FL140 immediately. Vectors for approach will follow.
+Pilot: Flight 295, squawking 7700. Descending to FL140. Request vectors for approach. [How effective is the response from ChatGPT?]","Scenario 6
+
+Flight 295 has caught fire in the cargo and wants to descend immediately.
+
+Response from Gemini:
+ATCO: Do you wish to, do you request a full emergency?""
+Pilot: Yes, Mauritius Approach, we request a full emergency. We have a fire in the cargo hold and are descending immediately.
+ATCO: Flight 295, Mauritius Approach, Roger. Full emergency declared. Squawk 7700. Vectors for immediate descent to FL140 will follow. Stand by.
+Pilot: Flight 295, turn left heading 270 degrees. Maintain 15,000 feet. Expect vectors for immediate descent to FL140.
+
+Response from ChatGPT: 
+ATCO: Do you wish to, do you request a full emergency?
+Pilot: Yes, Mauritius Approach, we request a full emergency. We have a fire in the cargo hold and are descending immediately.
+ATCO: Flight 295, Mauritius Approach, Roger. Full emergency declared. Squawk 7700. Descend to FL140 immediately. Vectors for approach will follow.
+Pilot: Flight 295, squawking 7700. Descending to FL140. Request vectors for approach. [How clear is the response from Gemini?]","Scenario 6
+
+Flight 295 has caught fire in the cargo and wants to descend immediately.
+
+Response from Gemini:
+ATCO: Do you wish to, do you request a full emergency?""
+Pilot: Yes, Mauritius Approach, we request a full emergency. We have a fire in the cargo hold and are descending immediately.
+ATCO: Flight 295, Mauritius Approach, Roger. Full emergency declared. Squawk 7700. Vectors for immediate descent to FL140 will follow. Stand by.
+Pilot: Flight 295, turn left heading 270 degrees. Maintain 15,000 feet. Expect vectors for immediate descent to FL140.
+
+Response from ChatGPT: 
+ATCO: Do you wish to, do you request a full emergency?
+Pilot: Yes, Mauritius Approach, we request a full emergency. We have a fire in the cargo hold and are descending immediately.
+ATCO: Flight 295, Mauritius Approach, Roger. Full emergency declared. Squawk 7700. Descend to FL140 immediately. Vectors for approach will follow.
+Pilot: Flight 295, squawking 7700. Descending to FL140. Request vectors for approach. [How accurate is the response from Gemini?]","Scenario 6
+
+Flight 295 has caught fire in the cargo and wants to descend immediately.
+
+Response from Gemini:
+ATCO: Do you wish to, do you request a full emergency?""
+Pilot: Yes, Mauritius Approach, we request a full emergency. We have a fire in the cargo hold and are descending immediately.
+ATCO: Flight 295, Mauritius Approach, Roger. Full emergency declared. Squawk 7700. Vectors for immediate descent to FL140 will follow. Stand by.
+Pilot: Flight 295, turn left heading 270 degrees. Maintain 15,000 feet. Expect vectors for immediate descent to FL140.
+
+Response from ChatGPT: 
+ATCO: Do you wish to, do you request a full emergency?
+Pilot: Yes, Mauritius Approach, we request a full emergency. We have a fire in the cargo hold and are descending immediately.
+ATCO: Flight 295, Mauritius Approach, Roger. Full emergency declared. Squawk 7700. Descend to FL140 immediately. Vectors for approach will follow.
+Pilot: Flight 295, squawking 7700. Descending to FL140. Request vectors for approach. [How effective is the response from Gemini?]","Scenario 7:
+
+Below is the description for transmitting: 
+
+Pilot: Seattle Approach, Cherokee 8121K, 20 [miles] southwest of Seattle VOR at 7,500, en route Arlington, request transmit Class Bravo airspace.
+
+
+
+Response from ChatGPT: 
+Cherokee 8121K, Seattle Approach, squawk 4502 and ident. Remain outside Class Bravo airspace while clearance is being coordinated.
+
+
+Response from Gemini : 
+Cherokee 8121K, Seattle Approach, radar contact. Squawk 1200.
+Cleared through Class Bravo direct Arlington. Maintain 7,500.
+Monitor 124.3 for further instructions. [How clear is the response from ChatGPT]","Scenario 7:
+
+Below is the description for transmitting: 
+
+Pilot: Seattle Approach, Cherokee 8121K, 20 [miles] southwest of Seattle VOR at 7,500, en route Arlington, request transmit Class Bravo airspace.
+
+
+
+Response from ChatGPT: 
+Cherokee 8121K, Seattle Approach, squawk 4502 and ident. Remain outside Class Bravo airspace while clearance is being coordinated.
+
+
+Response from Gemini : 
+Cherokee 8121K, Seattle Approach, radar contact. Squawk 1200.
+Cleared through Class Bravo direct Arlington. Maintain 7,500.
+Monitor 124.3 for further instructions. [How accurate is the response from ChatGPT?]","Scenario 7:
+
+Below is the description for transmitting: 
+
+Pilot: Seattle Approach, Cherokee 8121K, 20 [miles] southwest of Seattle VOR at 7,500, en route Arlington, request transmit Class Bravo airspace.
+
+
+
+Response from ChatGPT: 
+Cherokee 8121K, Seattle Approach, squawk 4502 and ident. Remain outside Class Bravo airspace while clearance is being coordinated.
+
+
+Response from Gemini : 
+Cherokee 8121K, Seattle Approach, radar contact. Squawk 1200.
+Cleared through Class Bravo direct Arlington. Maintain 7,500.
+Monitor 124.3 for further instructions. [How effective is the response from ChatGPT?]","Scenario 7:
+
+Below is the description for transmitting: 
+
+Pilot: Seattle Approach, Cherokee 8121K, 20 [miles] southwest of Seattle VOR at 7,500, en route Arlington, request transmit Class Bravo airspace.
+
+
+
+Response from ChatGPT: 
+Cherokee 8121K, Seattle Approach, squawk 4502 and ident. Remain outside Class Bravo airspace while clearance is being coordinated.
+
+
+Response from Gemini : 
+Cherokee 8121K, Seattle Approach, radar contact. Squawk 1200.
+Cleared through Class Bravo direct Arlington. Maintain 7,500.
+Monitor 124.3 for further instructions. [How clear is the response from Gemini?]","Scenario 7:
+
+Below is the description for transmitting: 
+
+Pilot: Seattle Approach, Cherokee 8121K, 20 [miles] southwest of Seattle VOR at 7,500, en route Arlington, request transmit Class Bravo airspace.
+
+
+
+Response from ChatGPT: 
+Cherokee 8121K, Seattle Approach, squawk 4502 and ident. Remain outside Class Bravo airspace while clearance is being coordinated.
+
+
+Response from Gemini : 
+Cherokee 8121K, Seattle Approach, radar contact. Squawk 1200.
+Cleared through Class Bravo direct Arlington. Maintain 7,500.
+Monitor 124.3 for further instructions. [How accurate is the response from Gemini?]","Scenario 7:
+
+Below is the description for transmitting: 
+
+Pilot: Seattle Approach, Cherokee 8121K, 20 [miles] southwest of Seattle VOR at 7,500, en route Arlington, request transmit Class Bravo airspace.
+
+
+
+Response from ChatGPT: 
+Cherokee 8121K, Seattle Approach, squawk 4502 and ident. Remain outside Class Bravo airspace while clearance is being coordinated.
+
+
+Response from Gemini : 
+Cherokee 8121K, Seattle Approach, radar contact. Squawk 1200.
+Cleared through Class Bravo direct Arlington. Maintain 7,500.
+Monitor 124.3 for further instructions. [How effective is the response from Gemini?]","","","","","",""
+"2025/01/19 2:47:57 PM GMT+1","Yes","Pilot","1-3 years","Response 1","Response 1","Response 1","Response 1","4","3 (neutral)","5 (excellent)","4","4","4","4","3 (neutral)","2;4","5 (excellent)","4","1 (not good)","4","","","","","","4","3 (neutral)","4","4","3 (neutral)","5 (excellent)"
+"2025/01/19 2:52:06 PM GMT+1","Yes","Pilot","More than 5 years","Response 2","Response 2","Response 2","Not Sure","3 (neutral)","1 (not good)","2","2","3 (neutral)","3 (neutral)","1 (not good)","2","1 (not good)","2","2","2","1 (not good)","2","1 (not good)","1 (not good)","2","2","","","","","",""
+"2025/01/19 2:58:23 PM GMT+1","Yes","Pilot","Less than 1 year","Response 1","Response 2","Response 2","Response 1","3 (neutral)","2","3 (neutral)","4","3 (neutral)","4","3 (neutral)","3 (neutral)","4","2","5 (excellent)","5 (excellent)","4","4","3 (neutral)","4","4","3 (neutral)","","","","","",""
+"2025/01/19 5:55:29 PM GMT+1","Yes","Pilot","Less than 1 year","Response 2","Response 2","Response 1","Not Sure","4","3 (neutral)","3 (neutral)","4","3 (neutral)","3 (neutral)","2","4","3 (neutral)","4","1 (not good)","5 (excellent)","1 (not good)","3 (neutral)","2","4","2","5 (excellent)","","","","","",""
+"2025/01/19 5:56:04 PM GMT+1","Yes","Pilot","Less than 1 year","Response 1","Response 2","Response 2","Not Sure","5 (excellent)","4","2","1 (not good)","3 (neutral)","5 (excellent)","5 (excellent)","4","5 (excellent)","4","5 (excellent)","4","3 (neutral)","4","3 (neutral)","4","3 (neutral)","4","","","","","",""
+"2025/01/21 8:21:45 AM GMT+1","Yes","ATC professional","Less than 1 year","Not Sure","Not sure","Not Sure","Not Sure","4","4","4","4","4","4","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","","","","","",""
+"2025/01/21 8:22:34 AM GMT+1","Yes","ATC professional","1-3 years","Response 2","Response 1","Not Sure","Response 1","3 (neutral)","3 (neutral)","3 (neutral)","2","3 (neutral)","2","3 (neutral)","2","3 (neutral)","2","3 (neutral)","2","3 (neutral)","2","3 (neutral)","2","3 (neutral)","2","","","","","",""
+"2025/01/21 8:27:38 AM GMT+1","Yes","ATC professional","Less than 1 year","Response 2","Response 2","Response 1","Response 2","3 (neutral)","2","4","3 (neutral)","3 (neutral)","3 (neutral)","4","3 (neutral)","2","4","3 (neutral)","3 (neutral)","2","3 (neutral)","3 (neutral)","4","3 (neutral)","2","","","","","",""
+"2025/01/21 6:31:37 PM GMT+1","Yes","ATC professional","Less than 1 year","Response 1","Response 2","Response 2","Response 1","4","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","4","4","4","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","","","","","",""
+"2025/01/21 6:46:51 PM GMT+1","Yes","ATC professional","Less than 1 year","Response 1","Response 1","Response 1","Response 1","5 (excellent)","5 (excellent)","5 (excellent)","4","4","3 (neutral)","5 (excellent)","5 (excellent)","5 (excellent)","4","3 (neutral)","3 (neutral)","5 (excellent)","5 (excellent)","5 (excellent)","3 (neutral)","2","2","","","","","",""
+"2025/01/21 6:54:42 PM GMT+1","Yes","Pilot","1-3 years","Response 1","Response 2","Response 1","Response 2","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","","","","","",""
+"2025/01/22 4:16:37 AM GMT+1","Yes","ATC professional","1-3 years","Not Sure","Not sure","Not Sure","Response 2","4","4","4","4","4","4","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","","","","","",""
+"2025/01/26 3:55:38 PM GMT+1","Yes","ATC professional","More than 5 years","Response 1","Response 2","Response 2","Not Sure","2","1 (not good)","2","3 (neutral)","2","3 (neutral)","4","2","4","2","4","1 (not good)","1 (not good)","4","1 (not good)","4","1 (not good)","4","","","","","",""
+"2025/01/26 3:58:38 PM GMT+1","Yes","ATC professional","Less than 1 year","Response 2","Response 1","Response 2","Response 1","3 (neutral)","3 (neutral)","4","3 (neutral)","3 (neutral)","3 (neutral)","4","4","3 (neutral)","3 (neutral)","3 (neutral)","3 (neutral)","4","4","3 (neutral)","4","4","4","","","","","",""
+"2025/01/26 4:01:25 PM GMT+1","Yes","ATC professional","Less than 1 year","Response 2","Response 1","Not Sure","Response 1","4","3 (neutral)","4","4","4","4","3 (neutral)","3 (neutral)","2","3 (neutral)","2","3 (neutral)","3 (neutral)","2","3 (neutral)","2","3 (neutral)","2","","","","","",""
+"2025/01/26 4:21:32 PM GMT+1","Yes","Pilot","Less than 1 year","Response 2","Response 1","Response 1","Response 1","1 (not good)","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","","","","","",""
+"2025/01/26 4:26:51 PM GMT+1","Yes","ATC professional","1-3 years","Response 1","Response 1","Response 1","Response 1","4","4","4","4","4","4","4","4","4","5 (excellent)","5 (excellent)","5 (excellent)","3 (neutral)","4","4","5 (excellent)","5 (excellent)","5 (excellent)","","","","","",""
+"2025/01/26 4:29:52 PM GMT+1","Yes","Pilot","3-5 years","Response 1","Response 1","Response 1","Response 1","4","4","5 (excellent)","4","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","4","4","4","4","4","4","4","4","4","","","","","",""
+"2025/01/26 4:54:48 PM GMT+1","Yes","ATC professional","Less than 1 year","Response 1","Not sure","Not Sure","Response 1","1 (not good)","2","2","3 (neutral)","2","2","2","3 (neutral)","2","3 (neutral)","2","2","2","2","3 (neutral)","2","2","2","","","","","",""
+"2025/01/26 5:42:58 PM GMT+1","Yes","ATC professional","Less than 1 year","Response 2","Response 1","Response 2","Response 1","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","","","","","",""
+"2025/01/26 6:06:33 PM GMT+1","Yes","ATC professional","Less than 1 year","Response 2","Response 1","Response 2","Response 1","4","4","4","5 (excellent)","5 (excellent)","4","5 (excellent)","4","4","4","5 (excellent)","4","4","5 (excellent)","4","4","5 (excellent)","5 (excellent)","","","","","",""
+"2025/01/26 6:07:25 PM GMT+1","Yes","ATC professional","Less than 1 year","Response 2","Response 1","Response 2","Response 1","4","4","4","4","4","4","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","","","","","",""
+"2025/01/26 6:08:01 PM GMT+1","Yes","Pilot","3-5 years","Response 2","Response 2","Response 2","Response 2","1 (not good)","1 (not good)","1 (not good)","1 (not good)","1 (not good)","1 (not good)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","","","","","",""
+"2025/01/26 6:20:17 PM GMT+1","Yes","ATC professional","1-3 years","Response 2","Response 1","Response 2","Response 1","4","4","5 (excellent)","4","4","5 (excellent)","4","5 (excellent)","5 (excellent)","4","4","5 (excellent)","4","5 (excellent)","5 (excellent)","4","5 (excellent)","4","","","","","",""
+"2025/01/26 6:41:25 PM GMT+1","Yes","ATC professional","Less than 1 year","Response 1","Response 1","Response 1","Response 1","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","5 (excellent)","","","","","",""
+"2025/01/26 7:58:45 PM GMT+1","Yes","ATC professional","3-5 years","Response 2","Not sure","Response 1","Not Sure","3 (neutral)","5 (excellent)","4","3 (neutral)","5 (excellent)","4","5 (excellent)","3 (neutral)","1 (not good)","5 (excellent)","3 (neutral)","1 (not good)","3 (neutral)","3 (neutral)","4","4","3 (neutral)","4","","","","","",""
+"2025/01/26 8:13:45 PM GMT+1","Yes","Pilot","1-3 years","Response 1","Response 1","Response 1","Response 1","4","3 (neutral)","2","3 (neutral)","2","2","3 (neutral)","5 (excellent)","5 (excellent)","3 (neutral)","3 (neutral)","3 (neutral)","2","3 (neutral)","2","2","2","4","","","","","",""
